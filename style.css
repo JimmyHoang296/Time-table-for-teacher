@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0ec7ff;
+}
+
+.login-form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 300px;
+
+    text-align: center;
+    border-radius: 25px;
+    padding: 40px 40px;
+    background-color: #fff;
+}
+
+.form-title{
+    margin-bottom: 40px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+input, button{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border-radius: 25px ;
+    border: none;
+    outline: none;
+}
+
+input{
+    background-color: #f2f2f2;
+    font-weight: 16px;
+}
+
+button{
+    background-color: #0ec7ff;
+    color: white;
+    font-size: 18px;
+
+}
