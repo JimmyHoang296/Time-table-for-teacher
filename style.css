@@ -52,5 +52,29 @@ button{
     background-color: #0ec7ff;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 
+    transition: opacity ease-in-out 0.1s;
+}
+
+.submit-btn:hover{
+    opacity: 0.8;
+}
+
+.form-message{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+}
+
+.invalid input{
+    border: 1px solid red;
+}
+
+.invalid .form-message{
+    color: red
 }
